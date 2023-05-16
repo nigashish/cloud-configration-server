@@ -7,3 +7,13 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
    hostname: localhost
+   
+microservice:
+ visor-master-service:
+  endpoints:
+   endpoint:
+    uri:http://VISOR-MASTER-SERVICE/masters/
+ visor-prs-service:
+  endpoints:
+   endpoint:
+    uri:http://VISOR-PRS-SERVICE/prs/
