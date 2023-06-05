@@ -9,7 +9,7 @@ eureka:
    hostname: localhost
     
  microservice:
-  payment-service:
+  visor-master-service:
     endpoints:
       endpoint:
         uri: http://VISOR-MASTER-SERVICE/masters/
