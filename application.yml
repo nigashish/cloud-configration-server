@@ -8,8 +8,8 @@ eureka:
   instance:
    hostname: localhost
     
-  microservice:
-  visor-master-service:
+ microservice:
+  payment-service:
     endpoints:
       endpoint:
         uri: http://VISOR-MASTER-SERVICE/masters/
