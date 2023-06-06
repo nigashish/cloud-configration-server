@@ -11,36 +11,7 @@ microservice:
     endpoints:
       endpoint:
         uri: http://VISOR-PRS-SERVICE/prs/
- microservice:
-  visor-master-service:
-    endpoints:
-      endpoint:
-        uri: http://VISOR-MASTER-SERVICE/masters/
- microservice:
-  visor-exams-service:
-    endpoints:
-      endpoint:
-        uri: http://VISOR-EXAMS-SERVICE/exams/
-  microservice:
-  visor-schoolapp-service:
-    endpoints:
-      endpoint:
-        uri: http://VISOR-SCHOOLAPP-SERVICE/schools/
-  microservice:
-  visor-teacherapp-service:
-    endpoints:
-      endpoint:
-        uri: http://VISOR-TEACHERAPP-SERVICE/teachers/
-  microservice:
-  visor-adminapp-service:
-    endpoints:
-      endpoint:
-        uri: http://VISOR-ADMINAPP-SERVICE/admin/
-  microservice:
-  visor-studentapp-service:
-    endpoints:
-      endpoint:
-        uri: http://VISOR-STUDENTAPP-SERVICE/students/
+
       
 
   
