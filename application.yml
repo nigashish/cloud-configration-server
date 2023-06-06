@@ -15,6 +15,14 @@ microservice:
     endpoints:
       endpoint:
         uri: http://ORDER-SERVICE/order/bookOrder
+  visor-master-service:
+    endpoints:
+      endpoint:
+        uri: http://VISOR-MASTER-SERVICE/masters/
+  visor-exams-service:
+    endpoints:
+      endpoint:
+        uri: http://VISOR-EXAMS-SERVICE/exams/
    
 
       
