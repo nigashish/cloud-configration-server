@@ -23,6 +23,10 @@ microservice:
     endpoints:
       endpoint:
         uri: http://VISOR-EXAMS-SERVICE/exams/
+  visor-teacherapp-service:
+    endpoints:
+      endpoint:
+        uri: http://VISOR-TEACHERAPP-SERVICE/teachers/
    
    
 
