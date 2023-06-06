@@ -11,6 +11,10 @@ microservice:
     endpoints:
       endpoint:
         uri: http://VISOR-PRS-SERVICE/prs/
+  order-service:
+    endpoints:
+      endpoint:
+        uri: http://ORDER-SERVICE/order/bookOrder
    
 
       
